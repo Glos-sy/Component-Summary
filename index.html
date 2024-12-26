@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Card Component Summary</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="tablet.css" media="(max-width: 1416px)" />
+    <!-- <link rel="stylesheet" href="mobile.css" media="(max-width: 1092px)" /> -->
+    <link rel="stylesheet" href="mobile.css" media="max-width: 1092px" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section id="left-panel">
+      <p id="first-p">Your Result</p>
+      <div id="score-circle">
+        <div class="circle"></div>
+        <p id="second-p">
+          <span>76</span> <br />
+          of 100
+        </p>
+      </div>
+      <h1>Great</h1>
+      <p id="third-p">
+        You score higher than 65% of the people who have taken these tests.
+      </p>
+    </section>
+
+    <section id="right-panel">
+      <h2>Summary</h2>
+      <div class="reaction-box">
+        <div class="txt-rxn-txt">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+          <h3>Reaction</h3>
+        </div>
+        <h3 class="num">80/100</h3>
+      </div>
+
+      <div class="memory-box">
+        <div class="mem-txt">
+          <i class="fa-solid fa-brain"></i>
+          <h3>Memory</h3>
+        </div>
+        <h3 class="num">92/100</h3>
+      </div>
+
+      <div class="verbal-box">
+        <div class="verb-txt">
+          <i class="fa-regular fa-comment"></i>
+          <h3>Verbal</h3>
+        </div>
+        <h3 class="num">61/100</h3>
+      </div>
+
+      <div class="visual-box">
+        <div class="visual-txt">
+          <i class="fa-regular fa-eye"></i>
+          <h3>Visual</h3>
+        </div>
+        <h3 class="num">72/100</h3>
+      </div>
+
+      <input type="button" value="Continue" />
+    </section>
+  </body>
+</html>

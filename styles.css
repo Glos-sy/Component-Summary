@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* GENERAL STYLING */
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: "Dosis", serif;
+    margin: 14rem auto;
+    width: 50%;
+    display: flex;
+    /* background-color: rgb(239, 240, 241); */
+    background-image: linear-gradient(to right, rgb(239, 240, 241), rgb(253, 243, 245) 70%, rgb(204, 197, 204));
+    /* animation:  background-rustle infinite 8s 0.1s ease-in-out backwards; */
+}
+
+/* @keyframes background-rustle {
+    0% {
+        background-image: linear-gradient(to right, rgb(248, 248, 249), rgb(253, 243, 245) 25%, rgb(204, 198, 204));
+    }
+    10% {
+        background-image: linear-gradient(to right, rgb(239, 240, 241), rgb(253, 243, 245) 45%, rgb(204, 197, 204));
+    }
+    25% {
+        background-image: linear-gradient(to right, rgb(239, 240, 241), rgb(253, 243, 245) 65%, rgb(204, 197, 204));
+    }
+    50% {
+        background-image: linear-gradient(to right, rgb(239, 240, 241), rgb(253, 243, 245) 85%, rgb(204, 197, 204));
+    }
+    75% {
+        background-image: linear-gradient(to right, rgb(239, 240, 241), rgb(253, 243, 245) 65%, rgb(204, 197, 204));
+    }
+    100% {
+        background-image: linear-gradient(to right, rgb(239, 240, 241), rgb(253, 243, 245) 25%, rgb(204, 197, 204));
+    }
+} */
+
+
+#left-panel, #right-panel {
+    width: 50%;
+    padding: 5%;
+    height: 60vh;
+    box-shadow: 2rem 2rem 2rem rgb(175, 175, 175);
+}
+
+/* LEFT PANEL STYLING */
+#left-panel {
+    background-color:steelblue;
+    background-image: linear-gradient(to right, steelblue, purple);
+    color: white;
+    border-top-left-radius: 3rem;
+    border-bottom-left-radius: 3rem;
+    text-align: center;
+    box-shadow: 0.5rem 2rem 4rem rgb(175, 175, 175);
+}
+/* pink 35% */
+
+#left-panel #first-p {
+    font-size: 2.4rem;
+    margin: 2rem 0;
+}
+
+#score-circle {
+    margin: 4%;
+    height: 18rem;
+    width: 18rem;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-color: rgb(55, 117, 168);
+    background-image: linear-gradient(to right, steelblue, purple);
+    margin: 3.2rem auto;
+}
+/* pink 30% */
+
+#score-circle #second-p {
+    padding-top: 3.5rem;
+    font-size: 1.6rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+#score-circle #second-p span {
+    font-size: 7.5rem;
+    color: white;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin: 1.2rem 0;
+}
+
+#third-p {
+    font-size: 2rem;
+}
+
+
+/* RIGHT PANEL STYLING */
+#right-panel {
+    background-color: transparent;
+    border-top-right-radius: 3rem;
+    border-bottom-right-radius: 3rem;
+    color: rgb(20, 35, 50);
+    margin: 0 0 0 2rem;
+}
+
+#right-panel h2 {
+    font-size: 3.2rem;
+    margin: 0 0 2.7rem 0;
+}
+
+.reaction-box, .memory-box, .verbal-box, .visual-box {
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 92%;
+    margin: 0 0 1rem 0;
+    padding: 1rem 1rem 1rem 3rem;
+    border-radius: 1rem;
+}
+
+.reaction-box {
+    color: rgb(173, 58, 58);
+    background-color: rgb(251, 216, 216);
+}
+
+.reaction-box i {
+    color: rgb(173, 58, 58);
+}
+
+.memory-box {
+    color: rgb(99, 193, 5);
+    background-color: rgb(216, 249, 182);
+}
+
+.memory-box i {
+    color: rgb(99, 193, 5);
+}
+
+.verbal-box {
+    color: crimson;
+    background-color: rgb(249, 176, 191);
+}
+
+.verbal-box i {
+    color: crimson;
+}
+
+.visual-box {
+    color: rgb(3, 174, 174);
+    background-color: rgb(185, 251, 251);
+}
+
+.visual-box i {
+    color: rgb(3, 174, 174);
+}
+
+i {
+    color: black;
+    font-size: 2rem;
+    margin: 0 1.8rem 0 2rem;
+}
+
+.verb-txt, .visual-txt, .mem-txt, .txt-rxn-txt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem 0 1rem -9rem;
+}
+
+.verb-txt h3, .visual-txt h3, .mem-txt h3, .txt-rxn-txt h3, .num {
+    font-size: 1.9rem;
+}
+
+
+/* INPUT STYLING */
+input {
+    font-family: "Dosis", serif;
+    font-weight: bold;
+    margin: 2.5rem auto;
+    width: 80%;
+    padding: 1.9rem;
+    background-color: rgb(25, 68, 103);
+    color: rgb(245, 248, 251);
+    border: none;
+    border-radius: 3rem;
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all ease-in-out 0.1s;
+}
+
+input:hover {
+    cursor: pointer;
+    padding: 2.1rem;
+    width: 80.5%;
+    font-size: 2rem;
+}
