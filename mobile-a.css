@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#left-panel, #right-panel {
+    width: 95%;
+}
+
+/* LEFT PANEL STYLING */
+#score-circle {
+    margin: 4%;
+    height: 16rem;
+    width: 16rem;
+    border-radius: 50%;
+    /* border: 1px solid black; */
+    background-color: rgb(55, 117, 168);
+    background-image: linear-gradient(to right, steelblue, purple);
+    margin: 3.2rem auto;
+}
+
+#left-panel #first-p {
+    font-size: 2.6rem;
+    margin: 3.5rem 0;
+}
+
+h1 {
+    font-size: 3.2rem;
+    margin: 2rem 0;
+}
+
+#score-circle #second-p {
+    padding-top: 3.5rem;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+i {
+    color: black;
+    font-size: 1.9rem;
+    margin: 0 1.6rem 0 -1rem;
+}
+
+
+/* INPUT STYLING */
+input {
+    margin-top: 3.3rem;
+    width: 90%;
+    padding: 2.1rem;
+    font-size: 2.3rem;
+}
+
+input:hover {
+    padding: 2.2rem;
+    width: 90%;
+    font-size: 2.3rem;
+}

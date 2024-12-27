@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#left-panel, #right-panel {
+    width: 110%;
+    padding: 5%;
+}
+
+/* LEFT PANEL STYLING */
+#left-panel {
+    padding-top: 4rem;
+}
+
+#left-panel #first-p {
+    font-size: 2.9rem;
+    margin: 2.6rem 0;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 2rem 0;
+}
+
+#third-p {
+    font-size: 2.4rem;
+}
+
+
+/* RIGHT PANEL STYLING */
+#right-panel {
+    padding: 6rem 4rem 3rem 4rem;
+}
+
+.reaction-box, .memory-box, .verbal-box, .visual-box {
+    height: 5.5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 1px solid black; */
+    width: 100%;
+    border-radius: 1rem;
+    margin: 0 2rem 1.4rem 0;
+    padding: 1rem 1rem 1rem 8.5rem;
+}

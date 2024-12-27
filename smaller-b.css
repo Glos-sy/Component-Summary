@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#left-panel, #right-panel {
+    width: 140%;
+    padding: 5%;
+    height: 58vh;
+}
+
+
+/*  */
+#right-panel {
+    height: 66vh;
+    padding: 5.3rem 3.5rem 3rem 3.5rem;
+}
+
+.reaction-box, .memory-box, .verbal-box, .visual-box {
+    margin: 0 0 1.5rem 0;
+    padding: 1rem 2rem 1rem 7rem;
+    height: 6rem;
+    width: 100%;
+}
+
+/* INPUT STYLING */
+input {
+    margin-top: 3.1rem;
+    width: 90%;
+    padding: 1.9rem;
+    font-size: 2.2rem;
+}
+
+input:hover {
+    padding: 2rem;
+    width: 90%;
+    font-size: 2.3rem;
+}
